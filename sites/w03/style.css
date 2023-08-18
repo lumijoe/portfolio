@@ -1,0 +1,91 @@
+/* wrapper */
+div.wrapper {
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/* header */
+header {
+  width: 100%;
+  height: 99px;
+  /* background-color: aquamarine; */
+}
+header div.inner span h1.logoimg {
+  float: left;
+  margin-right: 9px;
+  margin-top: 20px;
+}
+header div.inner span p.logotitle1 {
+  font-size: 12px;
+  font-weight: lighter;
+  padding-top: 20px;
+}
+header div.inner span p.logotitle2 {
+  font-size: 20 px;
+  font-weight: bold;
+}
+header div.inner span nav ul.gnavul {
+  display: flex;
+
+}
+header div.inner nav.gnav {
+  float: right;
+  margin-top: -20px;
+}
+header div.inner nav.gnav li{
+  list-style: none;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+/* div.mv */
+div.mv {
+  width:960px;
+  height:300px;
+  margin-bottom: 30px;
+}
+
+
+/* boxab */
+.boxab::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.boxa {
+  float: left;
+  width: 280px;
+  height: 300px;
+  /* background-color: aquamarine; */
+  margin-right: 30px;
+}
+.boxb {
+  float: left;
+  width: 650px;
+  height: 300px;
+  /* background-color: red; */
+}
+.boxb li {
+  list-style-type: none;
+}
+.adiv {
+  width: 280px;
+  height: 60px;
+  background-color: rgb(238, 245, 250);
+  margin-top: 20px;
+}
+.adiv a {
+  font-size:16px;
+  padding:30px 20px 0  0;  
+}
+
+
+/* footer */
+footer{
+  width: 100%;
+  height: 79px;
+  background-color: rgba(25, 109, 187, 0.587);
+  margin-top: 30px;
+}

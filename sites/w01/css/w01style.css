@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+  background: rgb(165, 165, 165)
+  ;
+}
+h1, p {
+  margin: 80px;
+}
+.contents {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
